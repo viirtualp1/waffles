@@ -4,17 +4,27 @@
   justify-content: center;
   flex-direction: column;
   gap: 12px;
-  height: 100%;
+
+  @media (min-width: 1280px) {
+    height: 100%;
+  }
 
   &__title {
-    font-size: 50px;
+    @media (min-width: 1280px) {
+      font-size: 50px;
+    }
   }
 
   &__rows {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 12px;
-    width: 80%;
+
+    @media (min-width: 1280px) {
+      width: 80%;
+      flex-direction: row;
+    }
   }
 
   &__col {
