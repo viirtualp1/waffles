@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
-  css: ['@/assets/scss/app.scss'],
+  css: ['@/assets/scss/globals.scss'],
   typescript: {
     strict: true,
     typeCheck: true,
