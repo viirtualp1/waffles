@@ -32,7 +32,7 @@ export const extendedPlayerData: Record<number, AdditionalPlayerData> = {
   },
   1010484916: {
     nickname: 'matusha',
-    position: PositionType.HARD,
+    position: PositionType.FULL_SUPPORT,
     discord: {
       name: 'matysha564',
       id: null,
