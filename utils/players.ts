@@ -19,7 +19,7 @@ export const extendedPlayerData: Record<number, AdditionalPlayerData> = {
     position: PositionType.CARRY,
     discord: {
       name: 'virtualp1',
-      id: 389737424856678401,
+      id: 389737424856678401n,
     },
   },
   1015235710: {

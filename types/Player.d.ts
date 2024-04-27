@@ -37,7 +37,7 @@ export interface AdditionalPlayerData {
   position: PositionType
   discord: {
     name: string
-    id: number | null
+    id: number | bigint | null
   }
   nickname: string
 }
